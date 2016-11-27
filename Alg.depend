@@ -1,0 +1,281 @@
+# depslib dependency file v1.0
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Basic.h"
+	"CUnit_intl.h"
+
+1398300885 /home/enix/Source/c/Alg/CUnit.h
+	<string.h>
+	<math.h>
+	"CUError.h"
+	"TestDB.h"
+	"TestRun.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/CUError.h
+	<errno.h>
+	"CUnit.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/TestDB.h
+	<setjmp.h>
+	"CUnit.h"
+	"CUError.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/TestRun.h
+	"CUnit.h"
+	"CUError.h"
+	"TestDB.h"
+	<stdio.h>
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/Util.h
+	"CUnit.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/Basic.h
+	"CUnit.h"
+	"TestDB.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/CUnit_intl.h
+	<libintl.h>
+
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Framework/CUError.c
+	<stdio.h>
+	<stdlib.h>
+	"CUnit_intl.h"
+	"CUError.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Framework/MyMem.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<errno.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 /home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Headers/MyMem.h
+
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Framework/TestDB.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdarg.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Framework/TestRun.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/lib/CUnit-2.1-3/CUnit/Sources/Framework/Util.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"test_cunit.h"
+
+1480160082 source:/home/enix/Source/c/Alg/divide_and_conquer.cpp
+	"divide_and_conquer.h"
+
+1480151314 /home/enix/Source/c/Alg/divide_and_conquer.h
+
+1480159471 source:/home/enix/Source/c/Alg/main.cpp
+	<iostream>
+	"test.h"
+
+1480160165 /home/enix/Source/c/Alg/test.h
+
+1480213902 source:/home/enix/Source/c/Alg/test.c
+	<stdio.h>
+	<string.h>
+	"Basic.h"
+	"test.h"
+	"divide_and_conquer.h"
+
+1480162496 source:/home/enix/Source/c/Alg/divide_and_conquer.c
+	<limits.h>
+	"divide_and_conquer.h"
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"TestRun.h"
+	"Basic.h"
+	"CUnit_intl.h"
+
+1398300885 /home/enix/Source/c/Alg/Inc/CUnit.h
+	<string.h>
+	<math.h>
+	"CUError.h"
+	"TestDB.h"
+	"TestRun.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/CUError.h
+	<errno.h>
+	"CUnit.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/TestDB.h
+	<setjmp.h>
+	"CUnit.h"
+	"CUError.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/TestRun.h
+	"CUnit.h"
+	"CUError.h"
+	"TestDB.h"
+	<stdio.h>
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/Util.h
+	"CUnit.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/Basic.h
+	"CUnit.h"
+	"TestDB.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/CUnit_intl.h
+	<libintl.h>
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Framework/CUError.c
+	<stdio.h>
+	<stdlib.h>
+	"CUnit_intl.h"
+	"CUError.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Framework/MyMem.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<errno.h>
+	<assert.h>
+	<string.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 /home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Headers/MyMem.h
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Framework/TestDB.c
+	<stdio.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<stdarg.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Framework/TestRun.c
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<setjmp.h>
+	<time.h>
+	"CUnit.h"
+	"MyMem.h"
+	"TestDB.h"
+	"TestRun.h"
+	"Util.h"
+	"CUnit_intl.h"
+	"test_cunit.h"
+
+1398300885 source:/home/enix/Source/c/Alg/lib/CUnit-2.1-3/CUnit/Sources/Framework/Util.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<assert.h>
+	<string.h>
+	"CUnit.h"
+	"TestDB.h"
+	"Util.h"
+	"test_cunit.h"
+
+1480237207 source:/home/enix/Source/c/Alg/Src/divide_and_conquer.c
+	<limits.h>
+	"divide_and_conquer.h"
+
+1480237222 /home/enix/Source/c/Alg/Inc/divide_and_conquer.h
+
+1480237407 source:/home/enix/Source/c/Alg/Src/main.cpp
+	<iostream>
+	"test.h"
+
+1480237232 /home/enix/Source/c/Alg/Inc/test.h
+
+1480237261 source:/home/enix/Source/c/Alg/Src/test.c
+	<stdio.h>
+	<string.h>
+	"Basic.h"
+	"test.h"
+	"test_divide_and_conquer.h"
+	"test_exhaustive_search.h"
+
+1480237211 source:/home/enix/Source/c/Alg/Src/exhaustive_search.c
+	<limits.h>
+	"exhaustive_search.h"
+
+1480237228 /home/enix/Source/c/Alg/Inc/exhaustive_search.h
+
+1480237237 /home/enix/Source/c/Alg/Inc/test_divide_and_conquer.h
+
+1480237251 /home/enix/Source/c/Alg/Inc/test_exhaustive_search.h
+
+1480237266 source:/home/enix/Source/c/Alg/Src/test_divide_and_conquer.c
+	<stdio.h>
+	<string.h>
+	"Basic.h"
+	"test_divide_and_conquer.h"
+	"divide_and_conquer.h"
+
+1480237246 source:/home/enix/Source/c/Alg/Src/test_exhaustive_search.c
+	<stdio.h>
+	<string.h>
+	"Basic.h"
+	"exhaustive_search.h"
+	"test_exhaustive_search.h"
+
