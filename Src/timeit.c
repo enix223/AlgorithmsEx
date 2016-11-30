@@ -1,5 +1,5 @@
 /**
-  * AlgorithmEx - Exercise codes for 'Introdution of algorithms (Third edition)'
+  *  -
   *
   * MIT License
   *
@@ -25,25 +25,14 @@
   *******************************************************************************
   */
 
+#include "timeit.h"
+#include <time.h>
 
-#ifndef BM_COMPARE_H_INCLUDED
-#define BM_COMPARE_H_INCLUDED
-
-#ifdef __cplusplus
-extern "C" {
-#endif // __cplusplus
-
-/**
- * Compare the execution time between divide and conquer
- * and exhaustive search
- */
-void findMaxSubarrayPerformanceCompare(const char *resultFilePath);
-
-/* Enable verbose message or not */
-#define BENCHMARK_VERBOSE                1
-
-#ifdef __cplusplus
+double timeit(char *tag, timeFunc func)
+{
+    clock_t start = clock();
+    func();
+    clock_t end = clock();
+    double elapse = (double)(end - start)/CLOCKS_PER_SEC;
+    return elapse;
 }
-#endif // __cplusplus
-
-#endif // BM_COMPARE_H_INCLUDED

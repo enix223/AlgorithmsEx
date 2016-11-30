@@ -26,17 +26,55 @@
   */
 
 #include <iostream>
+#include <string.h>
 #include "test.h"
+#include "bm_compare.h"
+
+#ifdef WINDOWS
+    #include <direct.h>
+    #define GetCurrentDir _getcwd
+#else
+    #include <unistd.h>
+    #define GetCurrentDir getcwd
+#endif
 
 using namespace std;
 
-int main()
+static void printUsage()
+{
+    cout << "Usage: \n\tAlg [unittest|benchmark]\n." << endl;
+}
+
+int main(int argc, const char *argv[])
 {
     cout << "Welcome to world of: \"Introduction to Algorithms\"..." << endl;
 
-    cout << "Running unit test..." << endl;
+    if (argc >= 2)
+    {
+        if (strcmp(argv[1], "unittest") == 0)
+        {
+            cout << "Running unit test..." << endl;
 
-    testRun();
+            testRun();
+        }
+        else if (strcmp(argv[1], "benchmark") == 0)
+        {
+            if (argc == 3)
+            {
+                cout << "Running benchmark test..." << endl;
+
+                findMaxSubarrayPerformanceCompare(argv[2]);
+            }
+            else
+            {
+                printUsage();
+            }
+        }
+    }
+    else
+    {
+        printUsage();
+    }
 
     return 0;
 }

@@ -2,39 +2,94 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="../lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="README.md" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1414" topLine="26" />
+			<Cursor1 position="395" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Src/test_exhaustive_search.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="105" topLine="0" />
+			<Cursor1 position="34" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="CUnit.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Src/test_divide_and_conquer.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="624" topLine="25" />
+			<Cursor1 position="1319" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="divide_and_conquer.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="lib/CUnit-2.1-3/CUnit/Sources/Framework/TestRun.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="625" topLine="0" />
+			<Cursor1 position="22135" topLine="595" />
 		</Cursor>
 	</File>
-	<File name="Test.c" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Src/test.c" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="121" topLine="0" />
+			<Cursor1 position="1319" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="../lib/CUnit-2.1-3/CUnit/Headers/CUError.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Inc/test.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4864" topLine="101" />
+			<Cursor1 position="1319" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="divide_and_conquer.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Inc/bm_compare.h" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="596" topLine="0" />
+			<Cursor1 position="1511" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Src/exhaustive_search.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Inc/test_divide_and_conquer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Inc/test_exhaustive_search.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src/main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5338" topLine="174" />
+		</Cursor>
+	</File>
+	<File name="lib/CUnit-2.1-3/CUnit/Sources/Framework/CUError.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="Inc/divide_and_conquer.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Inc/exhaustive_search.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src/divide_and_conquer.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="84" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Inc/CUnit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="420" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Src/bm_compare.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1377" topLine="15" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

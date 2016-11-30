@@ -5,7 +5,7 @@
 		<Option title="Alg" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="UnitTest/;" />
+		<Option virtualFolders="UnitTest/;Documents/;Benchmark/;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/Alg" prefix_auto="1" extension_auto="1" />
@@ -32,57 +32,73 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
-			<Add directory="../lib/CUnit-2.1-3/CUnit/Headers" />
-			<Add directory="../Alg" />
+			<Add directory="./Inc" />
+			<Add directory="lib/CUnit-2.1-3/CUnit/Headers" />
 		</Compiler>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/Automated.h">
-			<Option target="Debug" />
+		<Unit filename="Inc/CUnit.h" />
+		<Unit filename="Inc/bm_compare.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/Basic.h">
-			<Option target="Debug" />
+		<Unit filename="Inc/divide_and_conquer.h" />
+		<Unit filename="Inc/exhaustive_search.h" />
+		<Unit filename="Inc/test.h" />
+		<Unit filename="Inc/test_divide_and_conquer.h" />
+		<Unit filename="Inc/test_exhaustive_search.h" />
+		<Unit filename="README.md">
+			<Option virtualFolder="Documents/" />
 		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/CUCurses.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/CUError.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/CUnit_intl.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/Console.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/MyMem.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/TestDB.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/TestRun.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/Util.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Headers/wxWidget.h">
-			<Option target="Debug" />
-		</Unit>
-		<Unit filename="../lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c">
+		<Unit filename="Src/bm_compare.c">
 			<Option compilerVar="CC" />
-			<Option target="Debug" />
+			<Option virtualFolder="Benchmark/" />
 		</Unit>
-		<Unit filename="CUnit.h">
-			<Option target="Debug" />
+		<Unit filename="Src/divide_and_conquer.c">
+			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Test.c">
+		<Unit filename="Src/exhaustive_search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Src/main.cpp" />
+		<Unit filename="Src/test.c">
 			<Option compilerVar="CC" />
 			<Option virtualFolder="UnitTest/" />
-			<Option target="Debug" />
 		</Unit>
-		<Unit filename="divide_and_conquer.cpp" />
-		<Unit filename="divide_and_conquer.h" />
-		<Unit filename="main.cpp" />
+		<Unit filename="Src/test_divide_and_conquer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="UnitTest/" />
+		</Unit>
+		<Unit filename="Src/test_exhaustive_search.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="UnitTest/" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/Automated.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/Basic.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/CUCurses.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/CUError.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/CUnit_intl.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/Console.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/MyMem.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/TestDB.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/TestRun.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/Util.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Headers/wxWidget.h" />
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Basic/Basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Framework/CUError.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Framework/MyMem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Framework/TestDB.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Framework/TestRun.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/CUnit-2.1-3/CUnit/Sources/Framework/Util.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />

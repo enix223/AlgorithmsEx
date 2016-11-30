@@ -241,9 +241,13 @@
 
 1480237222 /home/enix/Source/c/Alg/Inc/divide_and_conquer.h
 
-1480237407 source:/home/enix/Source/c/Alg/Src/main.cpp
+1480517681 source:/home/enix/Source/c/Alg/Src/main.cpp
 	<iostream>
+	<string.h>
 	"test.h"
+	"bm_compare.h"
+	<direct.h>
+	<unistd.h>
 
 1480237232 /home/enix/Source/c/Alg/Inc/test.h
 
@@ -278,4 +282,21 @@
 	"Basic.h"
 	"exhaustive_search.h"
 	"test_exhaustive_search.h"
+
+1480518008 source:/home/enix/Source/c/Alg/Src/bm_compare.c
+	<stdlib.h>
+	<stdio.h>
+	"bm_compare.h"
+	"timeit.h"
+	"exhaustive_search.h"
+	"divide_and_conquer.h"
+
+1480517262 /home/enix/Source/c/Alg/Inc/bm_compare.h
+
+1480515456 /home/enix/Source/c/Alg/Inc/timeit.h
+	<time.h>
+
+1480514374 source:/home/enix/Source/c/Alg/Src/timeit.c
+	"timeit.h"
+	<time.h>
 
