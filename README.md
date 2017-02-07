@@ -16,13 +16,16 @@ Or
 ### Unit Test
     
     make unit
+    
+### Run benchmark
 
-### Divide and conquer
+    make benchmark
+    
+This command will show you the performance comparation for solving the `Find the maximum summary in an array problem`.
 
-Question: Find a sub-array from a given array with maximum sum value
-Solution:
-1. Divide and conquer
-2. Exhaustive search
+![benchmark](results/bm_find_max.png)
 
-#### Comparision:
-
+* Y-axis - The time spent to solve the problem
+* X-axis - The no of elements in the array (Problem size: N)
+* red circle - The time consumption for find the max sum using `Exhaustive Search` algorithm.
+* green triangle - The time consumption for finding the max sum using `Divide and Conquer` algorithm.
