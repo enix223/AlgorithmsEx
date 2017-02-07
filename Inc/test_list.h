@@ -25,42 +25,21 @@
   *******************************************************************************
   */
 
-#include <stdio.h>
-#include <string.h>
-#include "Basic.h"
-#include "test.h"
-#include "test_divide_and_conquer.h"
-#include "test_exhaustive_search.h"
-#include "test_list.h"
+#ifndef TEST_LIST_H_INCLUDED
+#define TEST_LIST_H_INCLUDED
 
-int testRun(void)
-{
-    CU_pSuite dSuite, eSuite, lSuite;
-    if (CUE_SUCCESS != CU_initialize_registry())
-    {
-        return CU_get_error();
-    }
+#ifdef __cplusplus
+extern "C" {
+#endif // __cplusplus
 
-    if ((dSuite = createDivideAndConquerTestSuite()) == NULL ||
-        (eSuite = createExhaustiveSearchTestSuite()) == NULL ||
-        (lSuite = createListTestSuite()) == NULL
-    )
-    {
-        CU_cleanup_registry();
-        return CU_get_error();
-    }
+/**
+ * Create a test suite for list data structure
+ * @return pSuite  The pointer for the test suite, NULL if create failed.
+ */
+CU_pSuite createListTestSuite(void);
 
-    CU_basic_set_mode(CU_BRM_NORMAL);
-
-    CU_basic_run_suite(dSuite);
-    CU_basic_run_suite(eSuite);
-    CU_basic_run_suite(lSuite);
-
-    CU_cleanup_registry();
-    return CU_get_error();
+#ifdef __cplusplus
 }
+#endif // __cplusplus
 
-int main(void)
-{
-    testRun();
-}
+#endif // TEST_LIST_H_INCLUDED
