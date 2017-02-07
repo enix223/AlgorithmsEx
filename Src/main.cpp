@@ -28,7 +28,7 @@
 #include <iostream>
 #include <string.h>
 #include "test.h"
-#include "bm_compare.h"
+#include "benchmark.h"
 
 #ifdef WINDOWS
     #include <direct.h>
@@ -42,7 +42,7 @@ using namespace std;
 
 static void printUsage()
 {
-    cout << "Usage: \n\tAlg [unittest|benchmark]\n." << endl;
+    cout << "Usage: \n\tAlg [unittest | benchmark <result_path>]\n." << endl;
 }
 
 int main(int argc, const char *argv[])

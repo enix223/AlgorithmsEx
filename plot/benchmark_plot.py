@@ -14,4 +14,4 @@ def plot_benchmark(filepath):
 
 
 if __name__ == '__main__':
-    plot_benchmark('../results/benchmark_divide_and_conquer.txt')
+    plot_benchmark('results/benchmark_divide_and_conquer.txt')

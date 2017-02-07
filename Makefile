@@ -1,5 +1,6 @@
 # Compiler
 CC = gcc
+CPP = g++
 
 # Compiler options
 DFLAGS = -Wall -g
@@ -38,17 +39,23 @@ TEST_DEPS_OBJS = test.o \
 			     list.o \
 			     test_divide_and_conquer.o \
 			     test_exhaustive_search.o \
-			     bm_compare.o \
+			     benchmark.o \
 			     divide_and_conquer.o \
 			     exhaustive_search.o
 
 # Run unit test
-unit: test
-	bin/$(ENV)/test
+.PHONY: unit
+unit: Alg
+	bin/$(ENV)/Alg unittest
 
-# Target
-test: $(TEST_DEPS_OBJS)
-	$(CC) $(CPPFLAGS) $(OBJS) -o bin/$(ENV)/$@
+.PHONY: benchmark
+benchmark:
+	bin/$(ENV)/Alg benchmark results/benchmark_divide_and_conquer.txt
+	python plot/benchmark_plot.py
+
+# Main target
+Alg: main.o $(TEST_DEPS_OBJS)
+	$(CPP) $(CPPFLAGS) $(OBJS) -o bin/$(ENV)/$@
 
 # Implicit rules
 $(OUTPUT_DIR)/%.o: %.c

@@ -59,8 +59,3 @@ int testRun(void)
     CU_cleanup_registry();
     return CU_get_error();
 }
-
-int main(void)
-{
-    testRun();
-}

@@ -7,6 +7,15 @@ This repo is used to keep the exercise codes for "Introduction to algorithms (Th
 2. Run on __Ubuntu 14.04 LTS__
 3. Build with __GCC__
 
+Or
+
+### GNU Make
+1. make, please refer to make file
+2. Build with __GCC__
+
+### Unit Test
+    
+    make unit
 
 ### Divide and conquer
 

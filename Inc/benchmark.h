@@ -26,8 +26,8 @@
   */
 
 
-#ifndef BM_COMPARE_H_INCLUDED
-#define BM_COMPARE_H_INCLUDED
+#ifndef BENCHMARK_H_INCLUDED
+#define BENCHMARK_H_INCLUDED
 
 #ifdef __cplusplus
 extern "C" {
@@ -46,4 +46,4 @@ void findMaxSubarrayPerformanceCompare(const char *resultFilePath);
 }
 #endif // __cplusplus
 
-#endif // BM_COMPARE_H_INCLUDED
+#endif // BENCHMARK_H_INCLUDED

@@ -29,7 +29,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "bm_compare.h"
+#include "benchmark.h"
 #include "timeit.h"
 #include "exhaustive_search.h"
 #include "divide_and_conquer.h"
